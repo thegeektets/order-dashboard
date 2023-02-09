@@ -82,7 +82,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto flex">
-      <aside className="w-1/4 bg-blue-500 text-white p-6">
+      <aside className="w-1/4 p-6" style={{ backgroundColor: "#00152F", color: "white" }}>
         <h2 className="mb-4 text-lg font-medium">Order Control</h2>
         <hr className="border-t mb-6" />
         <nav className="mb-6">
@@ -128,6 +128,7 @@ const App = () => {
             <button
               className="w-full py-2 px-3 bg-blue-500 m-2 rounded-lg text-white"
               onClick={handleSearch}
+              style={{ backgroundColor: "#00152F", color: "white" }}
             >
               Search
             </button>
